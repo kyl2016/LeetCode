@@ -15,10 +15,11 @@ func RemoveZeros(a []int) []int{
 	i, j := 0,0
 
 	for i<len(a){
-if a[i] != 0{
-	a[j] = a[i]
-	j++
-}
+		if a[i] != 0{
+			a[j] = a[i]
+			j++
+			}
+		
 		i++
 	}
 
